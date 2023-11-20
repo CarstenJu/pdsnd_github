@@ -18,12 +18,12 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington)
-    city = input("Which city would you like to analyze?: ").lower()
+    city = input("Which city would you like to analyze first?: ").lower()
     while city not in CITY_DATA:
         print("We do not have information about {}. Please select one of the following cities: \n".format(city))
         for key in CITY_DATA:
             print("{} \n".format(key))
-        city = input("Which city do you want to analyze: ").lower()
+        city = input("Which city do you want to analyze first: ").lower()
     
               
 
@@ -169,7 +169,9 @@ def trip_duration_stats(df):
     print("The total travel time is: {} days, {} hours, {} minutes, {} seconds".format(days,hours,minutes,seconds))
 
     # display mean travel time
-    mean_travel_time = int(df['Trip Duration'].mean() // 60)
+    median_travel_time = int(df['Trip Duration'].median() // 60)
+    print("The mean travel time is about {} minutes".format(median_travel_time))
+    mean_travel_time = int(df['Trip Duration'].meann() // 60)
     print("The mean travel time is about {} minutes".format(mean_travel_time))
 
 
