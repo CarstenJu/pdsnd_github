@@ -18,6 +18,9 @@ Via a simple user interface the date of one or all cities can be assesses. The u
 - average **trip length**
 - **user** statistics
 
+# Available time frame
+The underlying data covers the months of January to June
+
 Once 1 city is completed the user can continue to investigate the other cities within the same run of the project
 
 ### Files used
