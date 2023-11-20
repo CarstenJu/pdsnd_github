@@ -9,6 +9,7 @@ Bikeshare 2
 
 ### Description
 The main objective of the project is to **provide summary statistics for bike sharign usage** in 3 US cities (New York, Washington, Chicago). 
+
 Via a simple user interface the date of one or all cities can be assesses. The user can filter on a specific month or day of the week to focus the statistics on these.
 # Available data:
 - **month** with **highest** usage frequency
@@ -16,6 +17,8 @@ Via a simple user interface the date of one or all cities can be assesses. The u
 - most popular **stations**
 - average **trip length**
 - **user** statistics
+
+Once 1 city is completed the user can continue to investigate the other cities within the same run of the project
 
 ### Files used
 The run the program 4 files are use
