@@ -1,17 +1,30 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+This proejct was created on November 10, 2023. The readme was last updated on November 20, 2023
 
 ### Project Title
-Replace the Project Title
+Bikeshare 2
 
 ### Description
-Describe what your project is about and what it does
+The main objective of the project is to provide summary statistics for bike sharign usage in 3 US cities (New York, Washington, Chicago). 
+Via a simple user interface teh date of one or all cities can be assesses. The user can filter on a specific month or day of the week to focus the statistics on these.
+Available data:
+- month with highest usage frequency
+- day with highest usage frequency
+- most popular stations
+- average trip length
+- user statistics
 
 ### Files used
-Include the files used
+The run the program 4 files are use
+1) bikeshare_2.py
+2) chicago.csv
+3) new_york_city.csv
+4) washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+a) Udacity practive problems 1-3
+b) ChatGPT: https://chat.openai.com/   for specifc syntax resreach
+c) Python standard library: https://docs.python.org/3/library/index.html
 
