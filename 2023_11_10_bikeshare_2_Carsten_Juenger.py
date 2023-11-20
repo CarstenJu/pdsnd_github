@@ -216,12 +216,12 @@ def user_stats(df, city):
 def raw_data(df):
     agree = input("Would you like to see the underlying raw data? \nPlease enter yes or no. \n")
     counter_low = 0
-    counter_high = 5
+    counter_high = 10
     
     while agree == 'yes' and df.shape[0]>counter_low:
         print(df.iloc[counter_low : counter_high])
-        counter_low += 5
-        counter_high += 5
+        counter_low += 10
+        counter_high += 10
         agree = input("Would you like to see more lines of the raw data? \nPlease enter yes or no. \n")
         
 
